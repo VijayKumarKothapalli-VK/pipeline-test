@@ -20,44 +20,14 @@
   "updatePom": true,
   "environments": [
     {
-      "key": "dev",
-      "anypointEnvironment": "Development",
-      "applicationName": "pipeline-test-dev",
+      "key": "sandbox",
+      "anypointEnvironment": "Sandbox",
+      "applicationName": "pipeline-test-sandbox",
       "target": "Cloudhub-US-East-2",
       "replicas": 1,
       "vCores": "0.1",
       "approval": false,
-      "muleEnvValue": "dev"
-    },
-    {
-      "key": "qa",
-      "anypointEnvironment": "QA",
-      "applicationName": "pipeline-test-qa",
-      "target": "Cloudhub-US-East-2",
-      "replicas": 1,
-      "vCores": "0.1",
-      "approval": false,
-      "muleEnvValue": "qa"
-    },
-    {
-      "key": "uat",
-      "anypointEnvironment": "UAT",
-      "applicationName": "pipeline-test-uat",
-      "target": "Cloudhub-US-East-2",
-      "replicas": 1,
-      "vCores": "0.1",
-      "approval": true,
-      "muleEnvValue": "uat"
-    },
-    {
-      "key": "prod",
-      "anypointEnvironment": "Production",
-      "applicationName": "pipeline-test-prod",
-      "target": "Cloudhub-US-East-2",
-      "replicas": 2,
-      "vCores": "0.1",
-      "approval": true,
-      "muleEnvValue": "prod"
+      "muleEnvValue": "sandbox"
     }
   ],
   "kitVersion": "1.0.0"
